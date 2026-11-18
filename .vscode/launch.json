@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Main Application",
+      "request": "launch",
+      "mainClass": "com.facultyrepository.Main",
+      "projectName": "FacultyResearchPublicationRepository",
+      "classPaths": [
+        "bin",
+        "lib/mysql-connector-j-8.3.0.jar",
+        "src/main/resources"
+      ]
+    },
+    {
+      "type": "java",
+      "name": "Test Database Connection",
+      "request": "launch",
+      "mainClass": "com.facultyrepository.db.DatabaseConnection",
+      "projectName": "FacultyResearchPublicationRepository",
+      "classPaths": [
+        "bin",
+        "lib/mysql-connector-j-8.3.0.jar",
+        "src/main/resources"
+      ]
+    }
+  ]
+}
